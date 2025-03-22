@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VH_lR1", "VH_lR1\VH_lR1.csproj", "{40838FC2-4646-4E7B-86DC-28B66020FB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VH_lR1", "VH_lR1\VH_lR1.csproj", "{40838FC2-4646-4E7B-86DC-28B66020FB98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06099E19-FE07-4FA6-9BDE-FCD718297C9C} = {06099E19-FE07-4FA6-9BDE-FCD718297C9C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VH_lR1.Infrastructure", "VH_lR1.Infrastructure\VH_lR1.Infrastructure.csproj", "{06099E19-FE07-4FA6-9BDE-FCD718297C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{40838FC2-4646-4E7B-86DC-28B66020FB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40838FC2-4646-4E7B-86DC-28B66020FB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40838FC2-4646-4E7B-86DC-28B66020FB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06099E19-FE07-4FA6-9BDE-FCD718297C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06099E19-FE07-4FA6-9BDE-FCD718297C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06099E19-FE07-4FA6-9BDE-FCD718297C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06099E19-FE07-4FA6-9BDE-FCD718297C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
